@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
+::-moz-selection {
+  color: var(--primary2);
+  background: var(--accent);
+}
+::selection {
+  color: var(--primary2);
+  background: var(--accent);
+}
+
+/* Code for Firefox */
+::-moz-selection {
+  color: var(--primary2);
+  background: var(--accent);
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+  color: #7e87a8;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #0e1222;
+}
+/*# sourceMappingURL=index.css.map */

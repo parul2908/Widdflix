@@ -1,0 +1,25 @@
+@import "vars/index";
+
+.row {
+  margin-top: 2em;
+  &-title {
+    color: $white;
+    text-transform: uppercase;
+    margin-left: 4em;
+    font-family: $cav;
+  }
+  &-posters {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 2em;
+    padding-left: 5em;
+    gap: 0.7em;
+    min-height: 12.5rem;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}

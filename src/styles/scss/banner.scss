@@ -1,0 +1,96 @@
+@import "vars/index";
+@import "resp";
+
+.banner {
+  background-size: cover;
+  background-position: center;
+  height: 37.5rem;
+  position: relative;
+  object-fit: contain;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  user-select: none;
+  padding-bottom: 10em;
+  @include mob {
+  }
+  &-contents {
+    gap: 0.4em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 0fr;
+    grid-template-rows: 1fr 1fr 0fr;
+    grid-template-areas:
+      "title title title title"
+      "des des des des"
+      "vote lang stat play";
+    background: rgba(14, 18, 34, 0.5);
+    border-radius: 1.875rem;
+    padding: 1em;
+    max-width: 80%;
+    &-title {
+      font-size: 3rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      grid-area: title;
+      color: $white;
+      font-family: $cav;
+      @include mob {
+        font-size: 2.5rem;
+      }
+    }
+    &-buttons {
+      grid-area: play;
+      &-button {
+        border: none;
+        cursor: pointer;
+        color: $white;
+        outline: none;
+        padding: 1em 4em;
+        background: $indigo;
+        font-weight: 700;
+        text-transform: capitalize;
+        transition: all 0.4s ease-in-out;
+        border-radius: 0.625rem;
+        &:hover {
+          filter: brightness(170%);
+        }
+      }
+    }
+    &-des {
+      grid-area: des;
+      width: 60%;
+      color: $blue;
+      font-size: 1.7rem;
+      line-height: 2.188rem;
+      letter-spacing: 0.05em;
+      @include mob {
+        font-size: 1.2rem;
+        line-height: 1rem;
+        letter-spacing: 0.02em;
+        grid-gap: 0.5rem;
+      }
+    }
+    &-vote {
+      grid-area: vote;
+      color: $red;
+    }
+    &-lang {
+      grid-area: lang;
+      text-transform: capitalize;
+      text-decoration: underline;
+      color: $red;
+    }
+    &-stat {
+      grid-area: stat;
+      color: $red;
+    }
+  }
+  &--fadeBottom {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 7.4rem;
+    background: linear-gradient(180deg, rgba(14, 18, 33, 0), $indigo);
+  }
+}

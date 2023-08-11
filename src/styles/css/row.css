@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
+.row {
+  margin-top: 2em;
+}
+
+.row-title {
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-left: 4em;
+  font-family: "Caveat", cursive;
+}
+
+.row-posters {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding: 2em;
+  padding-left: 5em;
+  gap: 0.7em;
+  min-height: 12.5rem;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.row-posters::-webkit-scrollbar {
+  display: none;
+}
+/*# sourceMappingURL=row.css.map */

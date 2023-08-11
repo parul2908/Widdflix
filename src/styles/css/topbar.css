@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
+.topbar {
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  padding: 1em 5em;
+  width: 100vw;
+  font-family: "Caveat", cursive;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+}
+
+@media (max-width: 600px) {
+  .topbar {
+    gap: 5em;
+    width: 100%;
+  }
+}
+
+.nav-black {
+  background: #0e1222;
+}
+
+.nav-item {
+  cursor: pointer;
+  width: 3.125rem;
+  height: 3.125rem;
+}
+
+.nav-logo {
+  width: 8.569rem;
+  height: 3.75rem;
+}
+
+.nav-avtar {
+  border: 0.188rem solid #7e87a8;
+  border-radius: 3.125rem;
+}
+/*# sourceMappingURL=topbar.css.map */

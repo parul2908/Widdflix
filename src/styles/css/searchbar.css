@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
+.search-bar {
+  position: relative;
+  z-index: 11;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  background: #ffffff;
+  border-radius: 0 1.875rem 1.875rem 0;
+  padding: 0.625rem 0.938rem 0.938rem 0.313rem;
+  grid-gap: 2em;
+  gap: 2em;
+}
+
+@media (max-width: 600px) {
+  .search-bar {
+    gap: 0;
+    padding: 0.625rem 0 0.938rem 0;
+  }
+}
+
+.search-bar img {
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.search-bar img:hover {
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+}
+
+.search-bar-form-input {
+  background: #7e87a8;
+  color: #ffffff;
+  border: 0.031rem solid #0e1222;
+  -webkit-box-shadow: 0 -0.25rem 0.313rem rgba(0, 0, 0, 0.1);
+          box-shadow: 0 -0.25rem 0.313rem rgba(0, 0, 0, 0.1);
+  border-radius: 3.125rem;
+  padding: 0.4em 2em;
+}
+
+@media (max-width: 600px) {
+  .search-bar-form-input {
+    padding: 0.4em 0;
+  }
+}
+
+.search-bar-form-input:focus {
+  border: none;
+}
+/*# sourceMappingURL=searchbar.css.map */
