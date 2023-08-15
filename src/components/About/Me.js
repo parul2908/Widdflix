@@ -6,7 +6,7 @@ const Me = () => {
       <div className="me">
         <h5>Built with🤍</h5>
         <h3>made by:</h3>
-        <h4>kushagra agnihotri</h4>
+        <h4>Parul Gupta</h4>
         <p>
           {" "}
           Creating memorable websites and apps with outstanding UI/UX designs.
@@ -14,17 +14,17 @@ const Me = () => {
         <a
           className="me-pic"
           target="_blank"
-          href="https://kushagra-aa.github.io/portfolio/"
+          href="https://parul2908.github.io/Responsive-Personal-Portfolio-Website/"
           rel="noreferrer"
         >
           <img
-            src="https://pbs.twimg.com/profile_images/1391264894192738307/YLfn-2Xk_400x400.jpg"
+            src=""
             alt="Me"
           />
         </a>
         <a
           target="_blank"
-          href="https://kushagra-aa.github.io/portfolio/#about"
+          href="https://parul2908.github.io/Responsive-Personal-Portfolio-Website/#about"
           rel="noreferrer"
           className="me-btn-1-con"
         >
@@ -32,7 +32,7 @@ const Me = () => {
         </a>
         <a
           target="_blank"
-          href="https://kushagra-aa.github.io/portfolio/#contact"
+          href="https://parul2908.github.io/Responsive-Personal-Portfolio-Website/#contact"
           className="me-btn-2-con"
           rel="noreferrer"
         >
@@ -40,7 +40,7 @@ const Me = () => {
         </a>
         <a
           target="_blank"
-          href="https://kushagra-aa.github.io/portfolio/#projects"
+          href="https://parul2908.github.io/Responsive-Personal-Portfolio-Website/#projects"
           className="me-btn-3-con"
           rel="noreferrer"
         >
