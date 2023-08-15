@@ -20,7 +20,7 @@ const About = () => {
           get the code{" "}
           <a
             target="_blank"
-            href="https://github.com/kushagra-aa/widdflix"
+            href="https://parul2908.github.io/Responsive-Personal-Portfolio-Website/"
             rel="noreferrer"
           >
             here!
